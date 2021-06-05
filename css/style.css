@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'Circe';
+    src: url('/fonts/Circe-ExtraBold.eot');
+    src: local('☺'), url('/fonts/Circe-ExtraBold.woff') format('woff'), url('/fonts/Circe-ExtraBold.ttf') format('truetype'), url('/fonts/Circe-ExtraBold.svg') format('svg');
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Circe';
+    src: url('/fonts/Circe-Bold.eot');
+    src: local('☺'), url('/fonts/Circe-Bold.woff') format('woff'), url('/fonts/Circe-Bold.ttf') format('truetype'), url('/fonts/Circe-Bold.svg') format('svg');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Circe';
+    src: url('/fonts/Circe.eot');
+    src: local('☺'), url('/fonts/Circe.woff') format('woff'), url('/fonts/Circe.ttf') format('truetype'), url('/fonts/Circe.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Circe';
+    src: url('/fonts/Circe-Light.eot');
+    src: local('☺'), url('/fonts/Circe-Light.woff') format('woff'), url('/fonts/Circe-Light.ttf') format('truetype'), url('/fonts/Circe-Light.svg') format('svg');
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Circe';
+    src: url('/fonts/Circe-ExtraLight.eot');
+    src: local('☺'), url('/fonts/Circe-ExtraLight.woff') format('woff'), url('/fonts/Circe-ExtraLight.ttf') format('truetype'), url('/fonts/Circe-ExtraLight.svg') format('svg');
+    font-weight: 100;
+    font-style: normal;
+  }
+
+.header{
+    height: 100vh; 
+    background-image: url("/img/bg1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-bg{
+    background: linear-gradient(180deg, rgba(20,31,47,1) 0%, rgba(71,116,144,1) 40%, rgba(20,31,47,1) 100%);
+}
+
+.footer-bg{
+    background-image: url("/img/bg2.png");
+    height: 90vh;
+}
+
+.btn-round-pill{
+    border-radius: 50rem;
+}
+
+.btn-hover{
+    color: white;
+    border: 1px solid transparent ;
+}
+.btn-hover:hover{
+    border-color:white;
+}
+.button:hover{
+    color: white;
+    box-shadow: inset 0 9999px 9999px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.btn-outline-success{
+    color: lightgreen;
+    border-color: lightgreen;
+}
+
+.btn-line-bold{
+    border-width: 2px;
+}
+
+.font-family-Circe{
+    font-family: "Circe";
+}
+
+
+.gradientLine{
+    background: linear-gradient(90deg, rgba(87,245,73,1) 0%, rgba(71,144,255,1) 100%);
+    height: 6px;
+}
+
+.bg-footer{
+    background-color: rgba(20,31,47,1);
+}
+
+.text-light-gray{
+    color: rgb(202, 202, 202);
+}
+
+.contactUsUI{
+    padding: 12px;
+    resize: none;
+    border: none;
+    background-color: rgb(244, 247, 251);
+}
+
+.procent{
+    background-color: white;
+    color: salmon;
+    border-radius: 15px;
+}
+
+.ribbon {
+    background-image: url("/img/ribbon.png");
+    height: 6px;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+sup{
+    background-color: salmon;
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    font-family: "Circe";
+}
+
+img.columnsImg{
+    width: 250px;
+    height: 250px;
+}
+
+table,td{
+    border: 1px solid darkgray;
+    padding: 12px 20px;
+    border-collapse: collapse;
+    font-size: 14px;
+    table-layout: fixed;
+    width: 120px;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    overflow: hidden; 
+    font-family: "Circe";
+}
+td:nth-child(1) { 
+    color: cornflowerblue;
+    width: 180px;
+}
+td:nth-child(2) {
+    color: darkgray;
+}
+td:nth-child(3) {
+    color: darkseagreen;
+    
+}
+
+
+
