@@ -40,7 +40,7 @@
 
 .header{
     height: 100vh; 
-    background-image: url("https://practica2021task1/bg1.png");
+    background-image: url("bg1.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -50,7 +50,7 @@
 }
 
 .footer-bg{
-    background-image: url("https://practica2021task1/bg2.png");
+    background-image: url("bg2.png");
     height: 90vh;
 }
 
