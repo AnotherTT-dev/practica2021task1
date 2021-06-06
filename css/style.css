@@ -38,7 +38,8 @@
     font-style: normal;
   }
 
-@media screen and (orientation: landscape) {
+@media screen and (min-device-height: 0px)
+  and (max-device-height: 550px) {
     .header{
     height: 150vh; 
     background: url("http://drive.google.com/uc?export=view&id=1kccTT3fAYWYzooNXxAavBvg7Hb7QIldg") no-repeat;
