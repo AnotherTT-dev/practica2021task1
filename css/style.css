@@ -46,7 +46,7 @@
     padding-bottom: 75%;
 }
 }
-@media screen and (max-device-height: 768px) {
+@media screen and (max-device-width: 768px) {
     body{
          overflow-x: hidden;
          overflow-y: hidden;
