@@ -40,8 +40,7 @@
 
 .header{
     height: 100vh; 
-    background-image: url("http://drive.google.com/uc?export=view&id=1kccTT3fAYWYzooNXxAavBvg7Hb7QIldg");
-    background-repeat: no-repeat;
+    background: url("http://drive.google.com/uc?export=view&id=1kccTT3fAYWYzooNXxAavBvg7Hb7QIldg") no-repeat;
     background-size: cover;
 }
 
@@ -50,8 +49,8 @@
 }
 
 .footer-bg{
-    background-image: url("http://drive.google.com/uc?export=view&id=1vmF02OhEyMoxorCiZggYw1WlFHzxlyPz");
-    background-repeat: no-repeat;
+    background-image: url("http://drive.google.com/uc?export=view&id=1vmF02OhEyMoxorCiZggYw1WlFHzxlyPz") no-repeat;
+    height: 90vh; 
     background-size: cover;
 }
 
